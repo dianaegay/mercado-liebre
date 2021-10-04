@@ -1,0 +1,77 @@
+body{
+    background-color: #fff;
+}
+
+.form-completo {
+    margin: 15px auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-control {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 3px;
+    padding: 15px;
+}
+.form-control label {
+ width: 100%;
+}
+.form-control input {
+ width: 100%;
+ border-radius: 8px;
+ outline: none;
+ padding: 8px;
+ border: 0px;
+}
+.form-control input:focus {
+    border: 1px solid #89a9b4;
+}
+.enviar {
+    background-color:rgb(177, 175, 175);
+    border-radius: 12px;
+    border: 0px;
+    font-size: 18px;
+    padding: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    margin: 4px;
+}
+.enviar a {
+    color: #eaeaea;
+}
+.enviar:hover{
+    background-color: rgb(26, 204, 26);
+}
+.borrar {
+    background-color:rgb(177, 175, 175);
+    border-radius: 12px;
+    border: 0px;
+    font-size: 18px;
+    padding: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    margin: 4px;
+    color: #eaeaea;
+}
+.borrar:hover {
+    background-color: rgb(252, 48, 48);
+}
+.botonenviar {
+    width: 100%;
+}
+div .checkone {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+span {
+    color: rgb(250, 98, 192);
+}
