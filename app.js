@@ -1,7 +1,9 @@
 const express = require('express');
 const app = express();
 
-app.listen(3000, () => console.log('Servidor funcionando en host 3000'));
+app.listen (3000 || process.env.PORT, function () {
+    console.log('Servidor funcionando en host 3000');
+});
 
 app.use(express.static('public'));
 
